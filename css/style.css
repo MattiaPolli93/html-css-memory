@@ -50,6 +50,7 @@ main {
   color: #ff5f18;
   font-weight: bold;
   font-size: 25px;
+  top: 160px;
 }
 
 /* Tractor */
@@ -128,6 +129,7 @@ background-color: #fefefe;
   font-weight: bold;
   font-size: 25px;
   position: absolute;
+  top: 160px;
   left: 35px;
 }
 
