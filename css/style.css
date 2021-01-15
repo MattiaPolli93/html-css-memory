@@ -19,24 +19,40 @@ header h1 {
 
 main {
   margin: auto;
+  text-align: center;
 }
 
-.row {
+.main-box {
   margin-bottom: 25px;
 }
 
-.row .shape {
+.shape {
   width: 170px;
   height: 200px;
   border-radius: 10%;
+  margin-left: 15px;
+  box-shadow: 2px 2px 2px #141414;
+  display: inline-block;
+
 }
 
+.tractor-box,
+.tractor-box-2 {
+  box .shape {
+    width: 170px;
+    height: 200px;
+    border-radius: 10%;
+    margin-left: 15px;
+    box-shadow: 2px 2px 2px #141414;
+    display: inline-block;
+    background-image: url(../img/pattern.png);
+}
 
-footer h3 {
+footer h4 {
   font-family: 'Nerko One', cursive;
   font-size: 20px;
   color: #000;
   text-shadow: 2px 2px 1px #bababa;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
