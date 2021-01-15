@@ -23,7 +23,9 @@ main {
 }
 
 .main-box {
-  margin-bottom: 25px;
+  width: 100px;
+  margin: auto auto 25px auto;
+  /* margin-bottom: 25px; */
 }
 
 .shape {
@@ -32,20 +34,97 @@ main {
   border-radius: 10%;
   margin-left: 15px;
   box-shadow: 2px 2px 2px #141414;
+  background-image: url(..img/pattern.png);
+  background-size: contain;
   display: inline-block;
+  position: relative;
 
 }
 
-#tractor-box,
-#tractor-box-2 {
-    width: 170px;
-    height: 200px;
-    border-radius: 10%;
-    margin-left: 15px;
-    box-shadow: 2px 2px 2px #141414;
-    display: inline-block;
-    background-image: url(../img/pattern.png);
+.text {
+  display: none;
+  position: absolute;
+  color: #ff5f18;
+  font-weight: bold;
+  font-size: 20px;
 }
+
+/* Tractor */
+.tractor {
+  left: 55px;
+  bottom: 10px;
+}
+
+#tractor-box:hover,
+#tractor-box-2:hover {
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-repeat: no-repeat;
+  background-color: #fefefe;
+}
+
+#tractor-box:hover .tractor,
+#tractor-box-2:hover .tractor {
+  display: block;
+}
+
+/* Bicycle */
+.bicycle {
+
+}
+
+#bicycle-box:hover,
+#bicycle-box-2:hover {
+
+}
+
+/* Boat */
+.boat {
+
+}
+
+#boat-box,
+#boat-box-2 {
+
+}
+
+/* Baloon */
+.baloon {
+
+}
+
+#baloon-box {
+
+}
+
+/* Baloon different */
+.different {
+
+}
+
+#baloon-box-2.different {
+
+}
+
+/* Submarine */
+.submarine {
+
+}
+
+#submarine-box,
+#submarine-box-2 {
+
+}
+
+/* Tram */
+.tram {
+  
+}
+
+#tram-box,
+#tram-box-2 {
+
+}
+
 
 footer h4 {
   font-family: 'Nerko One', cursive;
