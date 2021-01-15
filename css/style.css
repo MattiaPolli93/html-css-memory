@@ -36,9 +36,8 @@ main {
 
 }
 
-.tractor-box,
-.tractor-box-2 {
-  box .shape {
+#tractor-box,
+#tractor-box-2 {
     width: 170px;
     height: 200px;
     border-radius: 10%;
