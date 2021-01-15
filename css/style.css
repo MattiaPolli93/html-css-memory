@@ -5,11 +5,12 @@
 }
 
 body {
-  background-color: #ADD8E6
+  background-color: #ADD8E6;
+  font-family: 'Nerko One', cursive;
 }
 
 header h1 {
-  font-family: 'Nerko One', cursive;
+
   text-align: center;
   color: #fff;
   font-size: 60px;
@@ -23,9 +24,10 @@ main {
 }
 
 .main-box {
-  width: 100px;
-  margin: auto auto 25px auto;
-  /* margin-bottom: 25px; */
+  width: 800px;
+  height: 650px;
+  margin: auto;
+  margin-bottom: 25px;
 }
 
 .shape {
@@ -34,7 +36,7 @@ main {
   border-radius: 10%;
   margin-left: 15px;
   box-shadow: 2px 2px 2px #141414;
-  background-image: url(..img/pattern.png);
+  background-image: url(../img/pattern.png);
   background-size: contain;
   display: inline-block;
   position: relative;
@@ -87,7 +89,7 @@ background-color: #fefefe;
 
 /* Boat */
 .boat {
-  left: 55px;
+  left: 65px;
   bottom: 10px;
 }
 
@@ -105,7 +107,7 @@ background-color: #fefefe;
 
 /* Baloon */
 .baloon {
-  left: 55px;
+  left: 45px;
   bottom: 10px;
 }
 
@@ -121,16 +123,19 @@ background-color: #fefefe;
 
 /* Baloon different */
 .different {
-
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
 }
 
-#baloon-box-2.different {
-
+#baloon-box-2 {
+  background-image: url(img/noun_air_balloon_3134741);
+  background-repeat: no-repeat;
 }
 
 /* Submarine */
 .submarine {
-  left: 55px;
+  left: 40px;
   bottom: 10px;
 }
 
@@ -148,7 +153,7 @@ background-color: #fefefe;
 
 /* Tram */
 .tram {
-  left: 55px;
+  left: 60px;
   bottom: 10px;
 }
 
@@ -159,16 +164,16 @@ background-color: #fefefe;
   background-color: #fefefe;
 }
 
-#tram-box:hover,
+#tram-box:hover .tram,
 #tram-box-2:hover .tram {
   display:block;
 }
 
 footer h4 {
-  font-family: 'Nerko One', cursive;
   font-size: 20px;
   color: #000;
   text-shadow: 2px 2px 1px #bababa;
   text-align: center;
+  margin-top: 15px;
   margin-bottom: 20px;
 }
