@@ -69,31 +69,54 @@ main {
 
 /* Bicycle */
 .bicycle {
-
+  left: 55px;
+  bottom: 10px;
 }
 
 #bicycle-box:hover,
 #bicycle-box-2:hover {
+background-image: url(../img/noun_Bicycle_3134821.png);
+background-repeat: no-repeat;
+background-color: #fefefe;
+}
 
+#bicycle-box:hover .bicycle,
+#bicycle-box-2:hover .bicycle {
+  display: block;
 }
 
 /* Boat */
 .boat {
-
+  left: 55px;
+  bottom: 10px;
 }
 
-#boat-box,
-#boat-box-2 {
+#boat-box:hover,
+#boat-box-2:hover {
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
+  background-repeat: no-repeat;
+  background-color: #fefefe;
+}
 
+#boat-box:hover .boat,
+#boat-box-2:hover .boat {
+  display: block;
 }
 
 /* Baloon */
 .baloon {
-
+  left: 55px;
+  bottom: 10px;
 }
 
-#baloon-box {
+#baloon-box:hover {
+  background-image: url(../img/noun_air_balloon_3134741);
+  background-repeat: no-repeat;
+  background-color: #fefefe;
+}
 
+#baloon-box:hover .baloon {
+  display: block;
 }
 
 /* Baloon different */
@@ -107,24 +130,39 @@ main {
 
 /* Submarine */
 .submarine {
-
+  left: 55px;
+  bottom: 10px;
 }
 
-#submarine-box,
-#submarine-box-2 {
+#submarine-box:hover,
+#submarine-box-2:hover {
+  background-image: url(../img/noun_Submarine_3134738.png);
+  background-repeat: no-repeat;
+  background-color: #fefefe;
+}
 
+#submarine-box:hover .submarine,
+#submarine-box-2:hover .submarine {
+  display:block;
 }
 
 /* Tram */
 .tram {
-  
+  left: 55px;
+  bottom: 10px;
 }
 
-#tram-box,
-#tram-box-2 {
-
+#tram-box:hover,
+#tram-box-2:hover {
+  background-image: url(../img/noun_Tram_3134750.png);
+  background-repeat: no-repeat;
+  background-color: #fefefe;
 }
 
+#tram-box:hover,
+#tram-box-2:hover .tram {
+  display:block;
+}
 
 footer h4 {
   font-family: 'Nerko One', cursive;
