@@ -35,6 +35,7 @@ main {
   height: 200px;
   border-radius: 10%;
   margin-left: 15px;
+  margin-bottom: 20px;
   box-shadow: 2px 2px 2px #141414;
   background-image: url(../img/pattern.png);
   background-size: contain;
@@ -48,12 +49,12 @@ main {
   position: absolute;
   color: #ff5f18;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* Tractor */
 .tractor {
-  left: 55px;
+  left: 45px;
   bottom: 10px;
 }
 
@@ -107,12 +108,12 @@ background-color: #fefefe;
 
 /* Baloon */
 .baloon {
-  left: 45px;
+  left: 35px;
   bottom: 10px;
 }
 
 #baloon-box:hover {
-  background-image: url(../img/noun_air_balloon_3134741);
+  background-image: url(../img/noun_air_balloon_3134741.png);
   background-repeat: no-repeat;
   background-color: #fefefe;
 }
@@ -123,19 +124,22 @@ background-color: #fefefe;
 
 /* Baloon different */
 .different {
+  color: #a523e7;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
+  left: 35px;
 }
 
 #baloon-box-2 {
-  background-image: url(img/noun_air_balloon_3134741);
+  background-color: #fff;
+  background-image: url(../img/noun_air_balloon_3134741.png);
   background-repeat: no-repeat;
 }
 
 /* Submarine */
 .submarine {
-  left: 40px;
+  left: 30px;
   bottom: 10px;
 }
 
@@ -174,6 +178,5 @@ footer h4 {
   color: #000;
   text-shadow: 2px 2px 1px #bababa;
   text-align: center;
-  margin-top: 15px;
   margin-bottom: 20px;
 }
